@@ -5,21 +5,24 @@
 /* -----------------------------------------------------------------------------
     Generate a thumbnail for file
 
-   This function's job is to create thumbnail for designated file as fast as possible
-   ----------------------------------------------------------------------------- */
+   This function's job is to create thumbnail for designated file as fast as
+   possible
+   -----------------------------------------------------------------------------
+ */
 
-OSStatus GenerateThumbnailForURL(void *thisInterface, QLThumbnailRequestRef thumbnail, CFURLRef url, CFStringRef contentTypeUTI, CFDictionaryRef options, CGSize maxSize)
-{
-printf("GenerateThumbnailForURL");
+OSStatus GenerateThumbnailForURL(void *thisInterface,
+                                 QLThumbnailRequestRef thumbnail, CFURLRef url,
+                                 CFStringRef contentTypeUTI,
+                                 CFDictionaryRef options, CGSize maxSize) {
+  printf("GenerateThumbnailForURL");
 
-
-    #warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c
-    return noErr;
+#warning To complete your generator please implement the function GenerateThumbnailForURL in GenerateThumbnailForURL.c
+  return noErr;
 }
 
-void CancelThumbnailGeneration(void* thisInterface, QLThumbnailRequestRef thumbnail)
-{
-printf("CancelThumbnailGeneration");
+void CancelThumbnailGeneration(void *thisInterface,
+                               QLThumbnailRequestRef thumbnail) {
+  printf("CancelThumbnailGeneration");
 
-    // implement only if supported
+  // implement only if supported
 }
